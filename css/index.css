@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body {
+    font-family: 'Lato', "sans-serif";
+    max-width: 100%;
+    min-width: 769px;
+    margin: 0 auto;
+}
+
+:root {
+    --main-color: #FFFFFF;
+}
+
+
+
+header.header-nav {
+    background-color: #18253c;
+}
+
+
+
+nav.header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+} 
+
+
+.logo {
+    font-size: 51px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    flex-grow: 1;
+    margin: -5px -10px 0;
+    padding: 20px 40px;
+}
+
+header .menu-items {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: -5px -10px -15;
+
+     
+}
+
+header .menu-items a {
+    font-size: 14px;
+    text-decoration: none;
+    display: block;  
+    color: #FFFFFF;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+header .menu-items a:hover {
+    border: 1px solid var(--main-color);
+}
+
+
+    
+ 
+@media (max-width:769px) {
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+header .menu-items {
+    display: flex;
+    flex-direction: column;
+    
+}
+}
+
+
+
+
+
+
+
+
