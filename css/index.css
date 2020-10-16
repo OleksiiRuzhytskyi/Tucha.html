@@ -3,24 +3,18 @@
 
 body {
     font-family: 'Lato', "sans-serif";
-    max-width: 100%;
-    min-width: 769px;
+    min-width: 900px;
     margin: 0 auto;
+    padding: 0 auto;
+    
 }
 
 :root {
     --main-color: #FFFFFF;
 }
 
-
-
-header.header-nav {
-    background-color: #18253c;
-}
-
-
-
 nav.header {
+    background-color: #18253c;
     padding: 20px 40px;
     display: flex;
     justify-content: flex-end;
@@ -42,7 +36,7 @@ header .menu-items {
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
-    margin: -5px -10px -15;
+    margin: -5px -10px -15px;
 
      
 }
@@ -75,13 +69,81 @@ header .menu-items {
     display: flex;
     flex-direction: column;
     
+    
 }
 }
+    /* container */
+
+
+.container {
+    background-image: url(../img/material-pvh.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
+.text-container {
+    font-family: 'Lato', "sans-serif";
+    font-size: 20px;
+    color:#FFFFFF;
+    text-align: justify;
+    position: absolute;
+    margin: 0px 40px;
+    height: 160px;
+    width: 700px;
+   
+}
+
+
+.photo-material-pvh {
+    width: 1125px;
+    height: 400px;
+}
+
+
+/* @media (min-width: 350px) {
+    .container {
+        display:flex;
+        
+    }
+} */
 
 
 
+/* about container */
 
+@media (min-width: 768px) {
+    .about {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+.about {
+    padding: 0px 40px;
+}
+
+.work-foto {
+    width: 470px;
+    height: 255px;
+}
+
+.text-heading {
+    font-size: 46px;
+    color: #30383c;
+}
+
+.hr-about-container {
+    width: 45px;
+    height: 2px;
+    background-color: #28b9cd;
+}
+
+.main-text-about {
+    font-size: 16px;
+    color: #30383c;
+    text-align: justify;
+}
 
