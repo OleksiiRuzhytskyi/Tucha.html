@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Lato', "sans-serif";
-    min-width: 900px;
+    max-width: 1350px;
     margin: 0 auto;
     padding: 0 auto;
     
@@ -86,20 +86,20 @@ header .menu-items {
 
 .text-container {
     font-family: 'Lato', "sans-serif";
-    font-size: 20px;
+    font-size: 23px;
     color:#FFFFFF;
     text-align: justify;
     position: absolute;
     margin: 0px 40px;
     height: 160px;
-    width: 700px;
+    width: 900px;
    
 }
 
 
 .photo-material-pvh {
-    width: 1125px;
-    height: 400px;
+    width: 100%;
+    height: 500px;
 }
 
 
@@ -114,7 +114,7 @@ header .menu-items {
 
 /* about container */
 
-@media (min-width: 768px) {
+@media (min-width: 450px) {
     .about {
         display: flex;
         flex-direction: row-reverse;
@@ -126,8 +126,8 @@ header .menu-items {
 }
 
 .work-foto {
-    width: 470px;
-    height: 255px;
+    width: 485px;
+    height: 260px;
 }
 
 .text-heading {
